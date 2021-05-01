@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AQUABOUNS</title>
+    <script>
+   function obtenirVariables()
+   {
+	   var uniqueURL = "reqEtatVariables";
+	   var request = new XMLHttpRequest(); // http://www.toutjavascript.com/reference/ref-xmlhttprequest.php
+  		// la fonction à appeler lors d'un changement d'avancement de la requête AJAX
+	   request.onreadystatechange = function()
+      {
+         if (this.readyState == 4) {
+            // Indicateur de l'avancement de l'appel AJAX == 4 => Données complètement accessibles 
+            if (this.status == 200) {
+               // Code retour du serveur après l'appel AJAX == 200 => OK, tout s'est bien passé
+               if (this.responseXML != null) 
+			   	{
+				   document.getElementById("TimeHID").innerHTML =  this.responseXML.getElementsByTagName('TimeH')[0].childNodes[0].nodeValue;
+				   document.getElementById("TimeMID").innerHTML =  this.responseXML.getElementsByTagName('TimeM')[0].childNodes[0].nodeValue;
+				   document.getElementById("TimeSID").innerHTML =  this.responseXML.getElementsByTagName('TimeS')[0].childNodes[0].nodeValue;
+				   document.getElementById("TbacID").innerHTML =   this.responseXML.getElementsByTagName('Tbac')[0].childNodes[0].nodeValue;
+				   document.getElementById("TrampeID").innerHTML = this.responseXML.getElementsByTagName('Trampe')[0].childNodes[0].nodeValue;
+				   document.getElementById("PbleuID").innerHTML = this.responseXML.getElementsByTagName('Pbleu')[0].childNodes[0].nodeValue;
+				   document.getElementById("PblancID").innerHTML =this.responseXML.getElementsByTagName('Pblanc')[0].childNodes[0].nodeValue;
+				   document.getElementById("Pbrass1ID").innerHTML =this.responseXML.getElementsByTagName('Pbrass1')[0].childNodes[0].nodeValue;
+				   document.getElementById("Pbrass2ID").innerHTML =this.responseXML.getElementsByTagName('Pbrass2')[0].childNodes[0].nodeValue;
+				   document.getElementById("Pbrass3ID").innerHTML =this.responseXML.getElementsByTagName('Pbrass3')[0].childNodes[0].nodeValue;
+				   document.getElementById("PhbacID").innerHTML =  this.responseXML.getElementsByTagName('Phbac')[0].childNodes[0].nodeValue;
+				   document.getElementById("RedoxID").innerHTML =  this.responseXML.getElementsByTagName('Redox')[0].childNodes[0].nodeValue;
+				   document.getElementById("ECID").innerHTML =     this.responseXML.getElementsByTagName('EC')[0].childNodes[0].nodeValue;
+               }
+            }
+         }
+      }
+      request.open("GET", uniqueURL , true); // ici on envoie la requête GET sur l'URL /reqEtatVariables
+      request.send(null);
+      setTimeout("obtenirVariables()", 10000); // on rappelle obtenirVariables() dans 5s
+   }
+   </script>
+ <style>
+ input[type=button]:hover {background-color:#33cc00}   
+  body{
+    background-image: url('http://commodore68.free.fr/Font_5.jpg');
+    background-color: #001624;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #0ECD00;
+    font-family: Comic Sans MS;
+	font-size: 30px;
+    white-space: normal
+	}
+  </style> </head>
+  <body onload="obtenirVariables()"><br><br><br>
+  	<div style="text-align: center;"><font color = "GreenYellow"><span id="TimeHID">...</span>H<span id="TimeMID">...</span>&nbsp;<font size="4px"><span id="TimeSID">...</span>s </font></font></div>
+	<center>
+			<span style="color: LightGrey;">Température aquarium :</span> <font color="red"><span id="TbacID">...</span> °</font><br>
+	  		<span style="color: LightGrey;">Température rampe :</span> <font color="red"><span id="TrampeID">...</span> °</font><br>
+			<span style="color: LightGrey;">Puissance bleu :</span> <font color="red"><span id="PbleuID">...</span> %</font><br>
+			<span style="color: LightGrey;">Puissance blanc :</span> <font color="red"><span id="PblancID">...</span> %</font><br>
+			<span style="color: LightGrey;">Puissance brassage 1 :</span> <font color="red"><span id="Pbrass1ID">...</span> %</font><br>
+			<span style="color: LightGrey;">Puissance brassage 2 :</span> <font color="red"><span id="Pbrass2ID">...</span> %</font><br>
+			<span style="color: LightGrey;">Puissance brassage 3 :</span> <font color="red"><span id="Pbrass3ID">...</span> %</font><br>
+        	<span style="color: LightGrey;">PH bac :</span> <font color="red"><span id="PhbacID">...</span></font><br>
+        	<span style="color: LightGrey;">Redox :</span> <font color="red"><span id="RedoxID">...</span></font><br>
+			<span style="color: LightGrey;">Salinité :</span> <font color="red"><span id="ECID">....</span></font><br>
+	</center>
+  </body>
+</html>
