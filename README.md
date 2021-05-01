@@ -31,11 +31,20 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
 
 
 
-> Pour la fabrication de l'automate : 
-Je peux réaliser, sur mon temps libre, quelques exemplaires d'un SHIELD pour Arduino Méga parfaitement adapté au programme Aquabouns .
-photo d'un exemplaire ci dessous. 
-N’hésitez pas à me contacter :
-www.facebook.com/aquabouns ou aquabouns@hotmail.com
+
+
+
+
+Tout est mis a votre disposition gratuitement et permet d'avoir un automate qui aurais pu vous coûter ~1000€ dans le commerce.
+Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL ;)
+https://www.paypal.com/pools/c/88NxY14ZuS
+
+
+
+
+
+
+
 
 
 // INFO SUR LES CHANGEMENTS APPORTES DANS LA V2.0
@@ -68,3 +77,4 @@ www.facebook.com/aquabouns ou aquabouns@hotmail.com
    > Mesure Ph via module ATLAS
    > Ajout d'une page etalonnage des sondes
    > Reglage de la puissance de demarage des pompe de Brassage (pour que le 0% corresponde au 0 de chaque pompe)
+  */
