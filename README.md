@@ -47,13 +47,20 @@ https://www.paypal.com/pools/c/88NxY14ZuS
 *
 *INFO SUR LES CHANGEMENTS APPORTES DANS LA V2.0
 
-*-*-*-*-* Correction de BUG *-*-*-*-* 
-Correction du bug "oscillo en mouvement meme quand OFF"
-Correction du bug "oscillo demarage en dehors des angles" >>> demarrage centré entre l'angle 1 et 2
-Correction du bug "alarme PH a repetition" >>> changement du module PH  par un modul ATLAS configurer en I2C
-Correction de l'inversion blanc / bleu de la page web
-Correction du probleme de non reception des sms envoyer a la chaine >>> ajout d'un delais apres l'envoie d'un SMS
+*-*-*-*-* Correction de BUG *-*-*-*-*
+
+Correction du bug "oscillo en mouvement meme quand OFF".
+
+Correction du bug "oscillo demarage en dehors des angles" >>> demarrage centré entre l'angle 1 et 2.
+
+Correction du bug "alarme PH a repetition" >>> changement du module PH  par un modul ATLAS configurer en I2C.
+
+Correction de l'inversion blanc / bleu de la page web.
+
+Correction du probleme de non reception des sms envoyer a la chaine >>> ajout d'un delais apres l'envoie d'un SMS.
+
 Suppresion de la gestion du RAC
+
 
 *-*-*-*-* Amelioration *-*-*-*-*
 > optimisation du code.
