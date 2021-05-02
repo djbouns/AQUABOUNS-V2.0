@@ -33,9 +33,13 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
  *-*-*-*-*
 > Tout est mis a votre disposition gratuitement et permet d'avoir un automate qui aurais pu vous coûter ~1000€ dans le commerce.
 Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL ;)
+
  *-*-*-*-*
+ 
  https://www.paypal.com/pools/c/88NxY14ZuS
+ 
  *-*-*-*-*
+ 
  *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-* *-*-*-*-*
  *-*-*-*-*
 
