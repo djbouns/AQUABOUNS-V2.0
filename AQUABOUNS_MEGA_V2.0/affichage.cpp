@@ -784,7 +784,7 @@ void rafraichirSaliniteNextion() {
 }
 
 void rafraichirIconeBatterie() {
-  const uint8_t margeBatterie = 20; // 20 = marge de 0.08V apres pont diviseur
+  const uint8_t margeBatterie = 10; // 10 = marge de 0.05V apres pont diviseur
   uint16_t mesureNiveauBatterie = analogRead(pinInBatterie);
   DPRINTF("mesure batterie : "); DPRINT(mesureNiveauBatterie); DPRINTF(" = "); DPRINT(mesureNiveauBatterie / 90.22); DPRINTF("V "); DPRINTLN(); // debug
   if ( mesureNiveauBatterie > (batterieNonConnecte - margeBatterie)) {
