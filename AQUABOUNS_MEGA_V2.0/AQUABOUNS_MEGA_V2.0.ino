@@ -42,7 +42,7 @@
 
                                            Tout est mis a votre disposition gratuitement et permet d'avoir un automate qui aurais coûter au minimum 1000€ dans le commerce.*/
 //                                                      !!!!! Alors Soutenez le projet pour qu'il continu d’évoluer et d’êtres mis a disposition gratuitement !!!!!
-//                                                                                    https://www.paypal.com/pools/c/88NxY14ZuS
+//                                                                                    https://paypal.me/pools/c/8A9UEXZdaB
 
 //                              !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
