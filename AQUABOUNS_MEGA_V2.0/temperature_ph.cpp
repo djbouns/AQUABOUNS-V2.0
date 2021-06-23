@@ -542,13 +542,13 @@ void etalonnageDesSondes(uint8_t sondeACalibrer, uint16_t valeur, float valeurfl
 
 void etalonnageEnCours() {
   switch (roulement1) {
-    case 0 :
+    case 1 :
       ph();
       break;
-    case 1:
+    case 2:
       redox();
       break;
-    case 2:
+    case 3:
       salinite();
       break;
   }
