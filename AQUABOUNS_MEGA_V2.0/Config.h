@@ -32,8 +32,11 @@
 //#define unCanalBleu
 
 // Active ou désactive le signal sonnore
-/* si vous ne voulez pas du signal sonore, ajouter //            */
-#define BuzzerActif
+/* si vous voulez le signal sonore, retirer // devant BuzzerActif OU BuzzerPassif en fonction du buzzer utilisé        */
+/* si vous ne voulez pas du signal sonore, ajouter // devant BuzzerActif et BuzzerPassif         */
+/* !!!!!!!!!! Un choix minimum obligatoir !!!!!!!!!! */
+//#define BuzzerActif
+#define BuzzerPassif
 
 
 //↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
