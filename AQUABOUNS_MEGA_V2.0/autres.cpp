@@ -177,37 +177,53 @@ void rebootAlarme() {
 
 /* alarme sonnore */
 void alarme() {
-#ifdef BuzzerActif
   if ((Time >= sauvegarde.heureDebutAlerte) && (Time <= sauvegarde.heureFinAlerte)) {
-    uint8_t i = 0;
-    uint8_t i2 = 0;
-    uint16_t note = 500u;
-    const uint8_t repetition = 3;
     if (alarmeOnOff) {
-      DPRINTF("Buzzer");  DPRINTLN(); // debug
+#ifdef BuzzerPassif
+      DPRINTF("Buzzer Passif");  DPRINTLN(); // debug
+      uint8_t i = 0;
+      uint8_t i2 = 0;
+      uint16_t note = 800u;
+      const uint8_t repetition = 3;
+      const uint8_t variationNote = 25;
+      const uint8_t duree = 4;
+      const uint8_t Nbr2Loop = 125;
+
       while (i2 < repetition) { // joue 3 fois la "melodie"
-        while (i < 200) {
-          TimerFreeTone(pinOutbuzzer, note, 1); // envoie les notes
-          note = note + 40; // change la note
+        while (i < Nbr2Loop) {
+          TimerFreeTone(pinOutbuzzer, note, duree); // envoie les notes
+          note = note + variationNote; // change la note
           i++;
         }
-        delay (500) ; // pause
+        delay (250); // pause
         while (i > 1) {
           if (i2 < 2) {
-            TimerFreeTone(pinOutbuzzer, note, 1); // envoie les notes
-            note = note - 40; // change la note
+            TimerFreeTone(pinOutbuzzer, note, duree); // envoie les notes
+            note = note - variationNote; // change la note
           }
           i--;
         }
         i2++;
       }
+#endif
+#ifdef BuzzerActif
+      DPRINTF("Buzzer Actif ");  DPRINTLN(); // debug
+      uint8_t i = 0;
+      const uint8_t repetition = 3;
+      while (i < repetition) {
+        digitalWrite(pinOutbuzzer, HIGH);
+        delay(500);
+        digitalWrite(pinOutbuzzer, LOW);
+        delay(500);
+        i++;
+      }
+#endif
       alarmeOnOff = false;
     }
     else {
       DPRINTF("Buzzer a deja sonné");  DPRINTLN(); // debug
     }
   }
-#endif
 }
 
 void reboot(const uint8_t pinHardReset) { // pour faire hard reboot
