@@ -13,6 +13,7 @@
 // Choix de la configuration des PIN de l'arduino
 /*choisir le type de configuration des pin correspondant a votre montage, devant votre configuration retirer //          */ // ne choisir qu'une configuration
 #define PinUtilisateur // Affectation des PIN defini par l'utilisateur
+//#define PinPCBounsMini10 // pour Shield PCBouns Mini V1.0 et V1.1
 //#define PinPCBouns15 // pour Shield PCBouns V1.5
 //#define PinPCBouns16 // pour Shield PCBouns V1.6
 //#define PinPCBouns21 // pour Shield PCBouns V2.1
