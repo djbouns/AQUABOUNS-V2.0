@@ -15,7 +15,7 @@
 #define PinUtilisateur // Affectation des PIN defini par l'utilisateur
 //#define PinPCBouns15 // pour Shield PCBouns V1.5
 //#define PinPCBouns16 // pour Shield PCBouns V1.6
-//#define PinPCBouns20 // pour Shield PCBouns V2.0 BETA
+//#define PinPCBouns21 // pour Shield PCBouns V2.1
 
 // Choix de la version de l'ecran standard / enhanced
 /*si votre écran est une version enhanced, retirer //           */ // la version enhanced permet un affichage des courbes graphiques pour le redox et la salinité
@@ -85,8 +85,8 @@
 #include "PinPCBouns15.h"
 #elif defined(PinPCBouns16)
 #include "PinPCBouns16.h"
-#elif defined(PinPCBouns20)
-#include "PinPCBouns20.h"
+#elif defined(PinPCBouns21)
+#include "PinPCBouns21.h"
 #endif
 
 
