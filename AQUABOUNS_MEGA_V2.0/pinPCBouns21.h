@@ -1,5 +1,5 @@
-#ifndef PinPCBouns20_h
-#define PinPCBouns20_h
+#ifndef PinPCBouns21_h
+#define PinPCBouns21_h
 
 //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Librairies $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 #include <arduino.h>
@@ -8,7 +8,7 @@
 /*
  * 
  * 
- * Affectation des pin correspondant a l'utilisation du shield pour arduino mega PCBouns V2.0
+ * Affectation des pin correspondant a l'utilisation du shield pour arduino mega PCBouns V2.1
  * 
  * 
  * 
@@ -47,7 +47,7 @@ const uint8_t pinOutRelaisEcumeur = A11; // relais ecumeur // ouvert = ON
 //A12 disponible pour un relais
 const uint8_t pinOutRelaisRemontee = A13; // relais coupure remontee // ouvert = ON
 //A14 disponible pour un relais
-//A15 disponible pour un relais
+//A15 non disponible sur pcb
 //entrées/sorties digital 
 //0 rx non disponible sur pcb
 //1 tx non disponible sur pcb
@@ -74,13 +74,13 @@ const uint8_t pinInFlotteurReserve = 29; // entree flotteur niveau bas reserve d
 //30 non disponible sur pcb
 const uint8_t pinInFlotteurDispo = 31; // entree flotteur disponible, non utilisé pour le momment
 //32 non disponible sur pcb
-const uint8_t pinInFlotteurOsmolation = 39; // 33 entree flotteur osmolation (ferme = ON)
+const uint8_t pinInFlotteurOsmolation = 33; // 33 entree flotteur osmolation (ferme = ON)
 //34 non disponible sur pcb
 const uint8_t pinInFlotteurNiveauEcumeur = 35; // entree flotteur niveau ecumeur (ferme = ON)
 //36 non disponible sur pcb
 const uint8_t pinOutRelaisDistributeurNouriture = 37; // relais distributeur nouriture
 //38 non disponible sur pcb
-const uint8_t pinInFlotteurSecurite = 33 ;// 39 entree flotteur securité decante (ouvert si niveau haut decante)
+const uint8_t pinInFlotteurSecurite = 39 ;// 39 entree flotteur securité decante (ouvert si niveau haut decante)
 //40 non disponible sur pcb
 const uint8_t pinOutBatterie = 41; // relais distributeur nouriture
 //42 non disponible sur pcb
@@ -98,3 +98,4 @@ const uint8_t pinOutRelaisOsmolation = 49; // relais pompe osmolation
 
 
 #endif
+
