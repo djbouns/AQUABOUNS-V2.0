@@ -1,5 +1,5 @@
 # AQUABOUNS-V2.0
-Le programme d'automatisation d'aquarium récifal entierement GRATUIT
+Le programme d'automatisation d'aquarium récifal entierement GRATUIT.
 Le Linux du récifaliste ;)
 
 Le projet AQUABOUNS en quelques mots
