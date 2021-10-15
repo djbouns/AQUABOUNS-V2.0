@@ -79,14 +79,41 @@
 #endif
 
 
-#if defined(PinUtilisateur)
+// erreur de configuration des pin
+static_assert(1 >= 0
+#ifdef PinUtilisateur
+              + 1
+#endif
+#ifdef PinPCBouns15
+              + 1
+#endif
+#ifdef PinPCBouns16
+              + 1
+#endif
+#ifdef PinPCBouns21
+              + 1
+#endif
+#ifdef PinPCBounsMini10
+              + 1
+#endif
+              , "Vous avez selectionnez plusieurs configuration de pin meme temps !!! ajouter // devant des lignes de configuration des pin afin de n'en garder qu'une seul");
+#if !defined (PinUtilisateur) && !defined (PinPCBouns15) && !defined (PinPCBouns16)&& !defined (PinPCBouns21)&& !defined (PinPCBounsMini10)
+#error "Vous n'avez selectionnez aucune configuration de pin !!! retirer // devant une lignes de configuration des pin"
+#endif
+#ifdef PinUtilisateur
 #include "PinUtilisateur.h"
-#elif defined(PinPCBouns15)
+#endif
+#ifdef PinPCBouns15
 #include "PinPCBouns15.h"
-#elif defined(PinPCBouns16)
+#endif
+#ifdef PinPCBouns16
 #include "PinPCBouns16.h"
-#elif defined(PinPCBouns21)
+#endif
+#ifdef PinPCBouns21
 #include "PinPCBouns21.h"
+#endif
+#ifdef PinPCBounsMini10
+#include "PinPCBounsMini10.h"
 #endif
 
 
