@@ -1,5 +1,5 @@
 # AQUABOUNS-V2.0
-Automate pour aquarium recifal GRATUIT
+Le programme d'automatisation d'aquarium récifal entierement GRATUIT
 
 Le projet AQUABOUNS en quelques mots
 Le début ... Je suis aquariophile depuis mon enfance et récifaliste depuis 6 ans.
