@@ -9,7 +9,7 @@ L'aquariophilie marine étant onéreuse, j'ai petit a petit commencé à bricole
 
 Même si je n'ai aucune formation en informatique, codage et électronique, j'ai cherché à comprendre et apprendre au fur et à mesure ...  tout d'abord avec des choses simples, lever/coucher soleil, prise de température, ventilation ...
 
-Mais quand je suis passé à 500L, je voulait tout automatiser.
+Mais quand je suis passé à 500L, je voulais tout automatiser.
 
 Vu les prix pratiqués dans le commerce pour un automate complet, je me suis tourné vers l'ackduino et je me suis vite aperçu que cela ne me convenait pas et il était difficile de modifier un si gros code, donc ...
 
@@ -21,7 +21,7 @@ Des dépenses importantes pour tester et trouver le matériel le plus adapté.
 
 Il est mis à disposition entièrement gratuitement afin que tout le monde puisse profiter d’un automate à faible coût.
 
-Remerciements 
+Remerciements: 
 Cela a été possible grâce à quelques rares personnes qui m’ont aidé ou guidé quand j’en avais besoin.
 
 Un GRAND merci à JML du forum Arduino pour son aide et tous ses conseils reçus, qui ont permis à ce projet d’être aussi abouti.
