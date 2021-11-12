@@ -57,7 +57,7 @@ Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposit
 > 
 > Correction du bug "oscillo démarrage en dehors des angles" >>> démarrage centré entre l'angle 1 et 2.
 > 
-> Correction du bug "alarme PH a répétition" >>> changement du module PH  par un modul ATLAS configurer en I2C.
+> Correction du bug "alarme PH a répétition" >>> changement du module PH  par un module ATLAS configurer en I2C.
 > 
 > Correction de l'inversion blanc / bleu de la page web.
 > 
@@ -87,7 +87,7 @@ Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposit
 > 
 > ajout de deux pages graphique avec courbe température, Ph, redox et salinité sur 24h ou 7 jours
 > 
-> ajout d'un bouton redémarrage sur la page paramêtre pour rebooter manuelement
+> ajout d'un bouton redémarrage sur la page paramètre pour rebooter manuellement
 > 
 > ajout d'un booléen pour être alerté par SMS au redémarrage après une coupure secteur + batterie (seulement si une batterie est installée)
 > 
@@ -97,7 +97,7 @@ Soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposit
 > 
 > Mesure EC via module ATLAS
 > 
-> Mesure Ph via module ATLAS
+> Mesure PH via module ATLAS
 > 
 > Ajout d'une page étalonnage des sondes
 > 
