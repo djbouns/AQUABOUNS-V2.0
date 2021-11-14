@@ -60,7 +60,7 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
 - Possibilité d'activer ou désactiver le buzzer. (dans la page Config avant téléversement)
 - décalage d'une minute de la distribution de nouriture pour que l'eau est le temps de se calmer après ralentissement des pompes de brassage.
 - Progression par palier de 1% par seconde de la puissance lors du démarrage des tempetes jusque au max tempete.
-- Ajout de deux pages graphique avec courbe température, Ph, redox et salinité sur 24h ou 7 jours
+- Ajout de deux pages graphique avec courbe température, PH, redox et salinité sur 24h ou 7 jours
 - Ajout d'un bouton redémarrage sur la page paramètre pour rebooter manuellement
 - Ajout d'un boolean pour être alerté par SMS au redémarrage après une coupure secteur + batterie (seulement si une batterie est installée)
 - Ajout d'une page pour visualiser les évènements stockés sur la carte SD
