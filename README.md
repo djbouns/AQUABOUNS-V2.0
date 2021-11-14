@@ -39,22 +39,17 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
  
  *-*-*-*-*
  
-## INFO SUR LES CHANGEMENTS APPORTES DANS LA V2.0
+## CHANGEMENTS APPORTES DANS LA V2.0
 
 ### Correction de BUG
 
-> Correction du bug "oscillo en mouvement même quand OFF".
-> 
-> Correction du bug "oscillo démarrage en dehors des angles" >>> démarrage centré entre l'angle 1 et 2.
-> 
-> Correction du bug "alarme PH a répétition" >>> changement du module PH  par un module ATLAS configurer en I2C.
-> 
-> Correction de l'inversion blanc / bleu de la page web.
-> 
-> Correction du problème de non reception des SMS envoyer a la chaine >>> ajout d'un delais apres l'envoie d'un SMS.
-> 
-> Suppression de la gestion du RAC
-
+- Correction du bug "oscillo en mouvement même quand OFF".
+ 
+- Correction du bug "oscillo démarrage en dehors des angles" >>> démarrage centré entre l'angle 1 et 2.
+- Correction du bug "alarme PH a répétition" >>> changement du module PH  par un module ATLAS configurer en I2C.
+- Correction de l'inversion blanc / bleu de la page web.
+- Correction du problème de non reception des SMS envoyer a la chaine >>> ajout d'un delais apres l'envoie d'un SMS.
+- Suppression de la gestion du RAC
 
 ### Améliorations
 - optimisation du code.
