@@ -39,7 +39,7 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
  
  *-*-*-*-*
  
-### CHANGEMENTS APPORTES DANS LA V2.0
+### Changements apportés dans la V2.0
 
 #### Correction de BUG
 
