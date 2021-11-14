@@ -56,8 +56,8 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
 > Suppression de la gestion du RAC
 
 
-*-*-*-*-* Amélioration *-*-*-*-*
-> optimisation du code.
+# Amélioration
+- optimisation du code.
 > 
 > envoie de la température avec les alertes EDF.
 > 
