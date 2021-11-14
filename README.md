@@ -45,25 +45,25 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
 
 - Correction du bug "oscillo en mouvement même quand OFF".
 - Correction du bug "oscillo démarrage en dehors des angles" >>> démarrage centré entre l'angle 1 et 2.
-- Correction du bug "alarme PH a répétition" >>> changement du module PH  par un module ATLAS configurer en I2C.
+- Correction du bug "alarme PH à répétition" >>> changement du module PH par un module ATLAS configurer en I2C.
 - Correction de l'inversion blanc / bleu de la page web.
-- Correction du problème de non reception des SMS envoyer a la chaine >>> ajout d'un delais apres l'envoie d'un SMS.
+- Correction du problème de non reception des SMS envoyer à la chaine >>> ajout d'un delais après l'envoie d'un SMS.
 - Suppression de la gestion du RAC
 
 #### Améliorations
-- optimisation du code.
+- Optimisation du code.
 - envoie de la température avec les alertes EDF. 
 - Ajout d'un onglet config dans le code permettant, avant téléversement, de configurer l'Aquabouns en fonction de votre matériel.
 - Ajout de message d'erreur a la compilation en cas de mauvaise sélection de carte et de problème de définition dans l'onglet Config.
 - Possibilité d'inverser l'éclairage pour ceux qui utilise des éclairages fonctionnant en sens inverse, PWM 0 = 100% et PWM 255 = 0%. (dans la page Config avant téléversement)
 - Possibilité de choisir le nombre de canaux (1 ou 2) par couleur. (dans la page Config avant téléversement)
-- possibilité d'activer ou désactiver le buzzer. (dans la page Config avant téléversement)
+- Possibilité d'activer ou désactiver le buzzer. (dans la page Config avant téléversement)
 - décalage d'une minute de la distribution de nouriture pour que l'eau est le temps de se calmer après ralentissement des pompes de brassage.
 - Progression par palier de 1% par seconde de la puissance lors du démarrage des tempetes jusque au max tempete.
-- ajout de deux pages graphique avec courbe température, Ph, redox et salinité sur 24h ou 7 jours
-- ajout d'un bouton redémarrage sur la page paramètre pour rebooter manuellement
-- ajout d'un boolean pour être alerté par SMS au redémarrage après une coupure secteur + batterie (seulement si une batterie est installée)
-- ajout d'une page pour visualiser les évènements stockés sur la carte SD
+- Ajout de deux pages graphique avec courbe température, Ph, redox et salinité sur 24h ou 7 jours
+- Ajout d'un bouton redémarrage sur la page paramètre pour rebooter manuellement
+- Ajout d'un boolean pour être alerté par SMS au redémarrage après une coupure secteur + batterie (seulement si une batterie est installée)
+- Ajout d'une page pour visualiser les évènements stockés sur la carte SD
 - Mesure ORP via module ATLAS
 - Mesure EC via module ATLAS
 - Mesure PH via module ATLAS
