@@ -18,7 +18,7 @@ l’AQUABOUNS en questions:
  *-*-*-*-*
 
 ### Remerciements
------------------
+
 Cela a été possible grâce à quelques rares personnes qui m’ont aidé ou guidé quand j’en avais besoin.
 Un GRAND merci à JML du forum Arduino pour son aide et tous ses conseils reçus, qui ont permis à ce projet d’être aussi abouti.
 Merci à tous le forum Arduino pour son aide.
@@ -41,7 +41,7 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
  *-*-*-*-*
  
 ### Changements apportés dans la V2.0
--------------------------------------
+
 
 #### Correction de BUG
 
