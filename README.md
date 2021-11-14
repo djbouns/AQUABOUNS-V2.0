@@ -39,9 +39,9 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
  
  *-*-*-*-*
  
-## CHANGEMENTS APPORTES DANS LA V2.0
+### CHANGEMENTS APPORTES DANS LA V2.0
 
-### Correction de BUG
+#### Correction de BUG
 
 - Correction du bug "oscillo en mouvement même quand OFF".
  
@@ -51,7 +51,7 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
 - Correction du problème de non reception des SMS envoyer a la chaine >>> ajout d'un delais apres l'envoie d'un SMS.
 - Suppression de la gestion du RAC
 
-### Améliorations
+#### Améliorations
 - optimisation du code.
 - envoie de la température avec les alertes EDF. 
 - Ajout d'un onglet config dans le code permettant, avant téléversement, de configurer l'Aquabouns en fonction de votre matériel.
