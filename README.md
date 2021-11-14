@@ -9,7 +9,7 @@ l’AQUABOUNS en questions:
 > 
 > Comment obtenir le programme ? à quel prix ? --- l'AQUABOUNS est mis a disposition GRATUITEMENT, il a été déposé sous License libre (GPL 3.0) afin que tout le monde puisse en profiter. 
 > 
-> Comment faire le montage ? --------------------- Tout se trouve dans les notices que vous pouvez télécharger sur www.aquabouns.fr et si le montage n'est pas a votre porté, vous pouvez vous faire aider d'un PCBouns, www.pcbouns.fr. 
+> Comment faire le montage ? --------------------- Tout se trouve dans les notices que vous pouvez télécharger sur www.aquabouns.fr et si le montage n'est pas à votre porté, vous pouvez vous faire aider d'un PCBouns, www.pcbouns.fr. 
 
  *-*-*-*-*
  
@@ -17,7 +17,7 @@ l’AQUABOUNS en questions:
  
  *-*-*-*-*
 
-Remerciements :
+###Remerciements
 Cela a été possible grâce à quelques rares personnes qui m’ont aidé ou guidé quand j’en avais besoin.
 Un GRAND merci à JML du forum Arduino pour son aide et tous ses conseils reçus, qui ont permis à ce projet d’être aussi abouti.
 Merci à tous le forum Arduino pour son aide.
