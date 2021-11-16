@@ -29,7 +29,8 @@ Merci à Commodore pour sa participation dans le développement de cette V2.0
  
  *-*-*-*-*
  
-> Tout est mis à votre disposition gratuitement, soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL : https://www.paypal.com/paypalme/ProjetAquabouns
+> Tout est mis à votre disposition gratuitement, soutenez le projet pour qu'il continue d’évoluer et d’être mis à disposition gratuitement en faisant un DON PAYPAL : 
+ [![Donate](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/paypalme/ProjetAquabouns)
  
  *-*-*-*-*
  
