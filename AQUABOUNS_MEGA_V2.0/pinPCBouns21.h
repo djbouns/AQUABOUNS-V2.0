@@ -41,13 +41,13 @@ const uint8_t hardResetWIFI = A5; // reset du wifi
 const uint8_t hardResetGSM = A6; // reset du gsm
 const uint8_t pinInCoupureCourant = A7; // entree presence tension d'alimentation
 const uint8_t pinInBatterie = A8; // entree niveau batterie
-//A9 disponible pour un relais
-const uint8_t pinOutRelaisChauffage = A10; // relais coupure chauffage // ouvert = ON
-const uint8_t pinOutRelaisEcumeur = A11; // relais ecumeur // ouvert = ON
+const uint8_t pinOutRelaisEcumeur = A9; // relais ecumeur // ouvert = ON
+const uint8_t pinOutRelaisRemontee = A10; // relais coupure remontee // ouvert = ON
+const uint8_t pinOutRelaisChauffage = A11; // relais coupure chauffage // ouvert = ON
 //A12 disponible pour un relais
-const uint8_t pinOutRelaisRemontee = A13; // relais coupure remontee // ouvert = ON
+//A13 disponible pour un relais
 //A14 disponible pour un relais
-//A15 non disponible sur pcb
+//A15 disponible pour un relais
 //entrées/sorties digital 
 //0 rx non disponible sur pcb
 //1 tx non disponible sur pcb
